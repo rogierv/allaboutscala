@@ -42,5 +42,6 @@ object OptionInFunctionParameters extends App {
   favoriteDonut.map(d => println(s"Favorite donut = $d"))
   val leastFavoriteDonut: Option[String] = None
   leastFavoriteDonut.map(d => println(s"Least favorite donut = $d"))
+  
 
 }
